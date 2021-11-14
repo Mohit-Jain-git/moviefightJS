@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 30px;
+  height: 50px;
+}
+.input {
+  height: 40px;
+  font-size: large;
+  width: 98%;
+}
+
+.title {
+  padding: 50px;
+  text-align: left;
+}
+
+.tutorial {
+  width: 800px;
+  text-align: center;
+  margin: auto;
+}
+
+figure.image {
+  display: grid;
+  justify-content: center;
+  background-color: black;
+}
+
+figure .image img {
+  width: 280px;
+}
+
+.notification {
+  margin-top: 20px !important;
+}
+
+.results {
+  max-height: 1000px;
+}
+
+.title .icon {
+  margin-left: 10px;
+}
+
+.hero {
+  margin-bottom: 10px;
+}
+
+.forms {
+  display: grid;
+  justify-content: space-around;
+}
+
+label {
+  font-size: 20px;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+.dropdown-item img {
+  height: 70px;
+  margin-right: 10px;
+}
+
+.input {
+  height: 40px;
+  font-size: large;
+}
+
+.media {
+  height: 40px;
+  width: 20px;
+}
+
+.image img {
+  height: 254px;
+  width: 100%;
+  margin-top: 16px;
+}
+
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+section {
+  display: flex;
+}
+
+.media-content {
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  text-align: left;
+  margin-left: 16px;
+  margin-top: 16px;
+}
+
+.content h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  margin-left: 0rem;
+  padding: 3rem;
+  padding-top: 3rem;
+  padding-left: 3rem;
+  padding-left: 2rem;
+  background-color: #00d1b2;
+  padding-top: 1rem;
+  margin-right: 1rem;
+}
+article .is-warning {
+  /* height: 20px; */
+  background-color: black;
+}
+
+.dropdown.is-active .dropdown-menu,
+.dropdown.is-hoverable:hover .dropdown-menu {
+  display: contents;
+}
+
+.notification {
+  height: 50px;
+}
+
+.title {
+  padding: 0rem;
+  padding-top: 0rem;
+  padding-left: 0rem;
+  text-align: left;
+  width: 100%;
+  margin-top: 3rem;
+  background-color: #00d1b2;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  margin-left: -1rem;
+}
+
+.title:not(.is-spaced) + .subtitle {
+  margin-top: 8.75rem;
+  margin-left: -81.5rem;
+  margin-bottom: 4rem;
+  font-weight: bold;
+  width: 100%;
+}
+
+.subtitle {
+  color: #4a4a4a;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.25;
+  width: 100%;
+}
+
+.hero.is-primary.is-bold {
+  height: 10rem;
+}
+
+.column.is-half,
+.column.is-half-tablet {
+  flex: none;
+  width: 51%;
+  height: 7rem;
+}
+
+.notification .title,
+.notification .subtitle,
+.notification .content {
+  text-align: center;
+  margin-top: 0em;
+}
+.stitle {
+  font-size: x-large;
+  margin-top: -1rem;
+}
+
+.hero-body {
+  flex-grow: 1;
+  flex-shrink: 0;
+  padding: 1rem 1.5rem;
+  background-color: #00d1b2;
+}
+
+.notification .title,
+.notification .subtitle,
+.notification .content {
+  text-align: center;
+  margin-top: 0em;
+  margin-left: 0rem;
+}
+.title:not(.is-spaced) + .gla {
+  margin-top: 8.75rem;
+  margin-left: -38.5rem;
+  margin-bottom: 4rem;
+  font-weight: bold;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  position: relative;
+  width: 27rem;
+}
