@@ -72,7 +72,7 @@ const runComparison = () => {
   );
 
   leftSideStats.forEach((leftStat, index) => {
-    rightStat = rightSideStats[index];
+    const rightStat = rightSideStats[index];
 
     const leftSideValue = leftStat.dataset.value;
     const rightSideValue = rightStat.dataset.value;
@@ -120,7 +120,7 @@ const movieTemplate = (movieDetail) => {
     </div>
   </article>
   <article data-value=${awards} class="notofocation is-primary">
-    <p class="title">${movieDetail.Awards}</p>
+    <p class="title cla">${movieDetail.Awards}</p>
     <p class="subtitle gla">Awards</p>
   </article>  
   <article data-value=${dollars} class="notofocation is-primary">
